@@ -1,5 +1,5 @@
 import express from "express"
-import router from './routes/employee_router.js'
+import router from './routes/router.js'
 import {connectDB} from "./database.js"
 import {config} from "dotenv"
 config({

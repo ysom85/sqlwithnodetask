@@ -1,9 +1,9 @@
 import mysql from 'mysql' 
 const mysqlConnection = mysql.createConnection({
-    host: "sql6.freesqldatabase.com",
-    user: "sql6638871",
-    password: "z6WKK7AD4T",
-    database: "sql6638871",
+    host: "",
+    user: "",
+    password: "",
+    database: "",
     multipleStatements: true   
 })  
 export const getData = (req,res) =>{

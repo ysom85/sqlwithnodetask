@@ -4,7 +4,7 @@ import {
     createCandidate,
     createCandidateStatus,
     getData
-    } from '../controllers/employee.js'
+    } from '../controllers/task.js'
            
 const router = express.Router()
 // router for insert data
